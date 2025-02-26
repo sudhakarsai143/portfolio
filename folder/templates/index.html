@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project</title>
+  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+
+  <link rel="stylesheet" href="{{url_for('static',filename='fonts/flat-icon/flaticon.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+
+<body>
+  <div id="content-wrapper">
+    <header class="header header--bg">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">sudhakar</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#home" class="page-scroll">HOME</a></li>
+              <li><a href="#one" class="page-scroll">ABOUT</a></li>
+              <li><a href="#two" class="page-scroll">SKILL</a></li>
+              <li><a href="#three" class="page-scroll">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header__content text-center">
+          <span class="header__content__block">HELLO I'am</span>
+          <h1 class="header__content__title">Macharla Sudhakar</h1>
+          <ul class="header__content__sub-title">
+          </ul>
+
+        </div>
+        
+      </div>
+    </header>
+    <section id="one">
+      <div class="container about__container--narrow">
+        <div class="page-section">
+          <h2 class="page-section__title">ABOUT ME</h2>
+          <img class="page-section__title-style" src="{{url_for('static',filename='images/title-style.png')}}" alt="">
+
+          <div class="row gutters-80">
+            <div class="col-md-4">
+              <div class="about__image">
+                <img src="{{url_for('static',filename='images/about-me-image.png')}}" alt="">
+              </div>
+            </div>
+            <div class="col-md-8 about__content" style="padding-left:10%;">
+              <div class="row row--margin-top">
+
+                <p class="about__bio"><strong>NAME :</strong> Macharla Sudhakar</p>
+                <p class="about__bio"><strong>AGE :</strong> 21</p>
+                <p class="about__bio"><strong>PHN NO :</strong>8328188964</p>
+                <p class="about__bio"><strong>LOCATION :</strong> Mangalagiri,Andhra pradesh</p>
+                <p>Hello! I'm Macharla Sudhakar, a passionate and dedicated software developer with a strong background
+                  in Python, C, and Java. I thrive on solving complex problems and turning innovative ideas into reality
+                  through efficient code.<br>
+
+                  Currently based in Mangalagiri, Andhra Pradesh, I have a deep enthusiasm for technology, web
+                  development, and software engineering. My journey in programming started with a curiosity for how
+                  things work behind the screen, and over the years, I've honed my skills to create seamless digital
+                  experiences.<br>
+
+                  I enjoy working on projects that challenge me to learn, innovate, and push boundaries. Whether it's
+                  building scalable applications, designing interactive websites, or optimizing system performance, I am
+                  always eager to explore new possibilities.<br>
+
+                  Beyond coding, I am an avid learner who loves collaborating with like-minded individuals, exchanging
+                  knowledge, and contributing to meaningful tech solutions. Let's connect and build something amazing
+                  together! </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </section>
+  <section class="skill white-background black" id="two">
+    <div class="container skill__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <img class="page-section__title-style" src="{{url_for('static',filename='images/title-style-white.png')}}"
+          alt="">
+        <div class="row gutters-60">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="{{url_for('static',filename='images/adobe-photoshop.png')}}" alt="">
+              <h4 class="skill__single-part__title">python</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="{{url_for('static',filename='images/adobe-illustrator.png')}}" alt="">
+              <h4 class="skill__single-part__title">C</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="{{url_for('static',filename='images/adobe-after-effects.png')}}" alt="">
+              <h4 class="skill__single-part__title">JAVA</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service white-background black" id="three">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">MY SERVICES</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="{{url_for('static',filename='images/website-design.png')}}" alt="">
+              <h4 class="service__single-section__title">WEBSITE DESIGN</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="{{url_for('static',filename='images/support.png')}}" alt="">
+              <h4 class="service__single-section__title">SUPPORT</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer footer--bg">
+    <div class="container text-center">
+      <h1 class="footer__title">CONTACT</h1>
+      <ul class="footer__contact-information">
+        <li><a href="tel:5555555555"><i class="material-icons"></i> Phn No: 8328188964</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons"></i>Email: sudhakarsai0143@gmail.com</a>
+        </li>
+        <li><a href="#"><i class="material-icons"></i>Address: kupparo colony, mangalagiri, andhra pradesh.</a></li>
+      </ul>
+    </div>
+    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+      <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved.</p>
+    </div>
+  </footer>
+  </div>
+  <script src="{{url_for('static',filename='jquery/jquery-3.2.1.min.js')}}"></script>
+  <script src="{{url_for('static',filename='bootstrap/js/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/mixitup.js')}}"></script>
+
+  <script>
+    $('a').click(function (e) {
+      e.preventDefault();
+    });
+
+    // calling mixitup
+    
+  </script>
+</body>
+
+</html>
