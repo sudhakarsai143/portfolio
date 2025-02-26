@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-
+from flask import *
+import os
 # Create an instance of the Flask class
 app = Flask(__name__)
 
@@ -11,5 +11,5 @@ def home():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True)
-
+    port = int(os.environ.get('PORT', 5000)) 
+    app.run(host='0.0.0.0', port=port,debug=True)
